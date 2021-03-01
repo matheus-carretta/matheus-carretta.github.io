@@ -1,0 +1,137 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: auto;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(113, 140, 160);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#menu {
+  margin-top: 100px;
+  background-color: rgb(128, 171, 176);
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+#menu a {
+  text-decoration: none;
+  padding: 14px 20px;
+  color: inherit;
+}
+
+#img-section {
+  width: 100%;
+  background-color: rgb(182, 182, 182);
+}
+
+#minha_foto {
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 38%;
+}
+
+.lado-esquerdo , .lado-direito {
+  font-family: Akaya Telivigala, cursive;
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  text-align: justify;
+  padding: 20px 50px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.lado-esquerdo {
+  margin-left: 150px;
+}
+
+.lado-direito {
+  margin-right: 150px;
+}
+
+.lado-esquerdo h1 {
+  line-height: 30px;
+}
+
+.lado-direito p , .lado-esquerdo p {
+  line-height: 35px;
+}
+
+#lists {
+  background-color: rgb(182, 182, 182);
+  margin-bottom: 10px;
+}
+
+#lists h1 {
+  margin-left: -50px;
+}
+
+#licoes_aprendidas {
+  margin-left: 310px;
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+  width: 30%;
+}
+
+#licoes_a_aprender {
+  margin-left: 80px;
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+table {
+  margin-left: 38%;
+  margin-bottom: 10px;
+}
+
+table , table tr , table td {
+  border: 1px solid black;
+  padding: 3px;
+  background-color: rgb(128, 171, 176);
+}
+
+table th {
+  border: 3px solid black;
+  padding: 5px;
+}
+
+table tr:nth-child( 2 ) {
+  font-weight: 700;
+  width: 30%;
+}
+
+#rodape {
+  padding: 2px 0 10px;
+  clear: both;
+  background-color: rgb(113, 140, 160);
+  text-align: center;
+}
+
+#rodape p {
+  font-weight: 700;
+}
+
+#rodape a {
+  text-decoration: none;
+  font-size: 20px;
+  color: lightgray;
+  font-weight: 700;
+}
+
+#menu a:hover {
+  background-color: rgb(182, 182, 182);
+  border: 1px solid black;
+  transition: 1s;
+}
