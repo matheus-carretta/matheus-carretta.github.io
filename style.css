@@ -12,7 +12,7 @@ h1 {
 }
 
 .highlight {
-  font-size: large;
+  font-size: 30px;
 }
 
 img {
@@ -34,29 +34,49 @@ nav a {
 }
 
 .img-section {
-  padding-top: 70px;
+  padding-top: 80px;
   padding-left: 10px;
   text-align: center;
   display: inline-block;
   width: 40%;
   vertical-align: middle;
-  margin-left: 150px;
-
+  margin-left: 100px;
+  margin-bottom: 15px;
 }
 
 .about-me {
-  padding-top: 70px;
+  padding-top: 80px;
   display: inline-block;
   width: 40%;
   text-align: justify;
   vertical-align: middle;
+  margin-right: 100px;
+  margin-bottom: 15px;
 }
 
-#sobreMim{
+#sobreMim, #qualidades, #experiencia, #formacaoAcademica{
   margin-bottom: 10px;
   text-align: center;
+  font-family: 'Yeseva One', cursive;
+  text-decoration: underline;
 }
 
 .about-me p {
+  font-size: 25px;
+}
+
+.quality, .academicFormation {
+  background-color: #175873;
+  text-align: center;
+  padding: 10px;
+}
+
+.experience {
+  padding: 10px;
+  text-align: center;
+}
+
+li {
+  padding: 5px;
   font-size: 25px;
 }
