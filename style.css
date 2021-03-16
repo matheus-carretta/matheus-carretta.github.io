@@ -54,7 +54,7 @@ nav a {
   margin-bottom: 15px;
 }
 
-#sobreMim, #qualidades, #experiencia, #formacaoAcademica{
+#sobreMim, #qualidades, #experiencia, #formacaoAcademica, #conhecimentos{
   margin-bottom: 10px;
   text-align: center;
   font-family: 'Yeseva One', cursive;
@@ -68,11 +68,11 @@ nav a {
 .quality, .academicFormation {
   background-color: #175873;
   text-align: center;
-  padding: 10px;
+  padding: 40px 10px;
 }
 
-.experience {
-  padding: 10px;
+.experience, .knowledge {
+  padding: 40px 10px;
   text-align: center;
 }
 
