@@ -80,4 +80,13 @@ li {
   padding: 5px;
   font-size: 25px;
   list-style-type: none;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #0C1446;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
 }
