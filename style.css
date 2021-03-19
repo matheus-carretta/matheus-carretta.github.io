@@ -79,4 +79,5 @@ nav a {
 li {
   padding: 5px;
   font-size: 25px;
+  list-style-type: none;
 }
