@@ -27,6 +27,10 @@ header {
   text-align: center;
 }
 
+header ul li {
+  display: inline-block;
+}
+
 nav a {
   padding: 0 10px;
   text-decoration: none;
@@ -34,7 +38,7 @@ nav a {
 }
 
 .img-section {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-left: 10px;
   text-align: center;
   display: inline-block;
@@ -89,4 +93,9 @@ footer {
   padding: 10px;
   font-size: 25px;
   color: white;
+}
+
+footer a {
+  color: brown;
+  text-decoration: none;
 }
